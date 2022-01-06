@@ -1,0 +1,12 @@
+{
+  "clientId": "",
+  "guildId": "",
+  "token": "",
+  "prefix": ">",
+  "mongooseConnectionString": "",
+  "activityType": "WATCHING",
+  "activityName": "Yokami's Era",
+  "cPrimary": "#00e586",
+  "cGreen": "#00ff88",
+  "cRed": "#ec4444"
+}

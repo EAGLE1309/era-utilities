@@ -24,3 +24,9 @@ Era Utilities is an ongoing project, and is still under development at the momen
 Go ahead and read [CONTRIBUTING.md](https://github.com/EAGLE1309/era-utilities/blob/master/CONTRIBUTING.md) for more info!
 
 ---
+
+## Our Contributors
+<a href="https://github.com/EAGLE1309/era-utilities/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=EAGLE1309/era-utilities" />
+</a>
+

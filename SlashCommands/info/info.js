@@ -20,7 +20,7 @@ module.exports = {
         new MessageButton()
         .setLabel('Contribute')
         .setStyle('LINK')
-        .setURL("https://eaglenetwork.tk")
+        .setURL("https://github.com/eagle1309/era-utilities")
       ],
       [
         new MessageButton()
@@ -84,7 +84,7 @@ module.exports = {
       },
       {
         name: "Era Utilities",
-        value: "> [Website](https://eaglenetwork.tk)\n> [About](https://eaglenetwork.tk)\n> [GitHub](https://eaglenetwork.tk)\n> [Status](https://projectlunar.statuspage.io/)\n"
+        value: "> [Website](https://github.com/eagle1309/era-utilities)\n> [About](https://eaglenetwork.tk)\n> [GitHub](https://eaglenetwork.tk)\n> [Status](https://projectlunar.statuspage.io/)\n"
       })
     .setTimestamp();
 

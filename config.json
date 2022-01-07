@@ -1,11 +1,12 @@
 {
   "clientId": "",
   "guildId": "",
+  "joinChannel": "",
   "token": "",
   "prefix": ">",
-  "mongooseConnectionString": "",
+  "mongooseConnection": "",
   "activityType": "WATCHING",
-  "activityName": "Yokami's Era",
+  "activityName": "Yokami Era",
   "cPrimary": "#00e586",
   "cGreen": "#00ff88",
   "cRed": "#ec4444"

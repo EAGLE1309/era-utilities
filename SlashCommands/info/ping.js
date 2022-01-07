@@ -20,11 +20,7 @@ module.exports = {
     .setColor(config.cGreen)
     .setTimestamp();
 
-    interaction.deferReply({
-      ephemeral: false
-    });
-
-    interaction.followUp({
+    interaction.reply({
       embeds: [embed]
     });
   },

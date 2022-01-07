@@ -9,7 +9,8 @@ const {
 } = require("discord.js");
 const mongoose = require("mongoose");
 const {
-  mongooseConnectionString
+  mongooseConnection,
+  guildId
 } = require('../config.json');
 const globPromise = promisify(glob);
 
@@ -58,7 +59,7 @@ module.exports = async (client) => {
       /*========== REGISTERING FOR SINGLE GUILD ==========*/
 
       const guild = client.guilds.cache
-      .get("780437033683255376");
+      .get(guildId);
       await
       guild.commands.set(arrayOfSlashCommands).then((cmd) => {
         const getRoles = (commandName) => {
@@ -106,6 +107,6 @@ module.exports = async (client) => {
 
   /*==================== MONGODB CONNECTION ====================*/
 
-  if (!mongooseConnectionString) return;
-  mongoose.connect(mongooseConnectionString).then(() => console.log(`\n========== MONGO DB ==========\nMONGODB Successfully Connected!\n========== SUCCESS ==========\n`));
+  if (!mongooseConnection) return;
+  mongoose.connect(mongooseConnection).then(() => console.log(`\n========== MONGO DB ==========\nMONGODB Successfully Connected!\n========== SUCCESS ==========\n`));
 };

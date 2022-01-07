@@ -19,4 +19,6 @@ This is based on my ongoing discord bot's project called as **Project Lunar**
 
 Era Utilities is an ongoing project, and is still under development at the moment. Although on the master branch, _everything should_ work!
 
+### Want to contribute to this project?
+Go ahead and read [CONTRIBUTING.md](https://github.com/EAGLE1309/era-utilities/blob/master/CONTRIBUTING.md) for more info!
 ---

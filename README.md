@@ -10,7 +10,7 @@ This is based on my ongoing discord bot's project called as **Project Lunar**
 
 <div align="center">
 
-  [![Discord.js](https://img.shields.io/badge/Discord.js-V.13.5.0-7354F6?style=flat-square)](https://www.npmjs.com/package/discord.js)
+  [![Discord.js](https://img.shields.io/badge/Discord.js-V.13.5.1-7354F6?style=flat-square)](https://www.npmjs.com/package/discord.js)
   [![CodeFactor](https://www.codefactor.io/repository/github/eagle1309/era-utilities/badge)](https://www.codefactor.io/repository/github/eagle1309/era-utilities)
 
 </div>

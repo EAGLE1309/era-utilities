@@ -11,6 +11,7 @@ client.on("interactionCreate", async (interaction) => {
         content: "An unknown error has occurred!",
         ephemeral: true
       });
+      client.commands.delete(interaction.commandName);
       return;
     }
 

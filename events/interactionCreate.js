@@ -33,11 +33,13 @@ client.on("interactionCreate", async (interaction) => {
       ephemeral: true
     });
     for (let i = 0; i < cmd.options?.length; i++) {
+    if(interaction.options?._subcommand === cmd.options[i].name) {
     if (!interaction.member.permissions.has(cmd.options[i].userPermissions || [])
     return interaction.reply({
       content: `You need \`${cmd.options[i].userPermissions}\` permission to use this command!`,
       ephemeral: true
     });
+    }
     }
     cmd.run(client, interaction, args);
   }
